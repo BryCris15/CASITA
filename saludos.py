@@ -7,7 +7,7 @@ def WORLD(): #renderiza todo el contenido
 
 @app.route('/Prueba')#decorador
 def prueba(): #renderiza todo el contenido
-    return 'seccion en mantenimiento'
+    return 'Seccion en mantenimiento'
     
 
 @app.route('/Aprueba')#decorador
