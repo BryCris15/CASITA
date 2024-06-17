@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')#decorador / esta en home
 def WORLD(): #renderiza todo el contenido
-    return 'Hola mundo, ya me funsiono'
+    return 'Hola mundo, ya lo subi a GitHub'
 
 @app.route('/Prueba')#decorador
 def prueba(): #renderiza todo el contenido
